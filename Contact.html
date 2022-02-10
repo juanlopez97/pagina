@@ -6,32 +6,49 @@
 </head>
 <body>
     <header style="text-align:center; background-color: grey;">
-       <h1  > League of Trolls: Legends of caliwood </h1>
+        <img src="img/r3.png" width="20%"  >
       
 <nav style="text-align:center; background-color: black;">
         
             <span style="font-size: 24px; padding: 12px;"> 
                 <a id="enlaces" href="/Homee.html">Inicio</a>              
                 <a id="enlaces" href="/About.html">Informacion</a> 
-                <a id="enlaces" href="#">Galeria</a> 
-                <a id="enlaces" href="/Contact.html">Contacto</a> 
+                <a id="enlaces" href="/Gallery.html">Galeria</a> 
+                <a id="enlaces" href="#">Contacto</a> 
             </span>
         </nav>
     </header>
-    <body background="img/lol1.jpg"></body>
-    <main style="text-align: center; background-color:white;">
+    <body style="background-color: black"></body>
+    <main style="text-align: center;">
         
-  <p><b> Contacto a las oficinas: </b>  </p>
+  <p style="background-color: grey; text-align:center;"><b> Contactanos: </b>  </p>
   
-  <p style="background-color: white;"> Info de contacto: NO HAY, SE QUEMO EL SERVER. </p>
-          <img src="img/lol7.jpg" > 
 
-          <p style="background-color: white;"> Y CLARO NO A PAGADO, NO TENEMOS LUZ. </p>      
-          <img src="img/lol8.jpg" > 
+     <form style="background-color: grey; text-align:center;"action="formSucess.html" method="POST">
+        <label for="username">Nombre:</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="Correo">Correo:</label>
+        <input type="Correo" name="Correo" id="Correo"><br>
+      <label for="phone">Celular:</label>
+        <input type="number" name="phone" id="phone"><br>
+        <label for="city">Ciudad donde vives:</label><br>
+        <select name="city" id="city">
+            <option value="none"></option>
+            <option value="cali">Cali</option>
+            <option value="cartagena">Cartagena</option>
+            <option value="medellin">Medellín</option>
+            <option value="bogota">Bogotá</option>
+        </select><br>
+        <label for="comments">Dejanos tus comentarios</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+       <input type="submit" value="Enviar" ><a href="/formSuccess.html"></a><br>
+     </form>
+
+       
     </main>
     
     <footer style="text-align: center; background-color: white;">
-        <p>Este juego es mas adictivo que las drogas, pero igual lo jugamos cual relacion toxica.</p>
+        <p> Renault corp. 1898-2022. Todas las leyes aplicadas.</p>
     </footer>
   
 

@@ -1,0 +1,98 @@
+
+Tablas y Formularios
+Cesar Martinez Uribe
+•
+8 feb
+
+formSucess.html
+HTML
+
+index.html
+HTML
+
+tables.html
+HTML
+Comentarios de la clase
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formSucess.html" method="POST">
+        <label for="username">Nombre:</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="Correo">Correo:</label>
+        <input type="Correo" name="Correo" id="Correo"><br>
+      <label for="phone">Celular:</label>
+        <input type="number" name="phone" id="phone"><br>
+        <label for="city">Ciudad donde vives:</label><br>
+        <select name="city" id="city">
+            <option value="none"></option>
+            <option value="cali">Cali</option>
+            <option value="cartagena">Cartagena</option>
+            <option value="medellin">Medellín</option>
+            <option value="bogota">Bogotá</option>
+        </select><br>
+        <label for="comments">Dejanos tus comentarios</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Enviar"><br>
+      
+      
+        <label for="city">Ciudad:</label>
+        <input type="city" name="city" id="city" step="5"><br>
+      <label for="size">Estatura:</label>
+        <input type="range" name="size" id="size" min="50" max="300" step="50"><br>
+        <label for="hobbies">Dime tus hobbies favoritos</label><br>
+        <label for="swim">Nadar</label>
+        <input type="checkbox" name="swim" id="swim">
+        <label for="run">Correr</label>
+        <input type="checkbox" name="run" id="run">
+        <label for="eat">Comer</label>
+        <input type="checkbox" name="eat" id="eat">
+        <label for="read">Leer</label>
+        <input type="checkbox" name="read" id="read"><br>
+        <label for="genre">Dime tu género:</label><br>
+        <label for="male">Masculino</label>
+        <input type="radio" name="male" id="male">
+        <label for="female">Femenino</label>
+        <input type="radio" name="female" id="female">
+        <label for="non-binary">No Binario</label>
+        <input type="radio" name="non-binary" id="non-binary">
+        <label for="none">Prefiero no decirlo</label>
+        <input type="radio" name="none" id="none"><br>
+        <label for="city">Ciudad donde vives:</label><br>
+        <select name="city" id="city">
+            <option value="none"></option>
+            <option value="cali">Cali</option>
+            <option value="cartagena">Cartagena</option>
+            <option value="medellin">Medellín</option>
+            <option value="bogota">Bogotá</option>
+        </select><br>
+        <label for="barrios">Selecciona tu barrio: </label><br>
+        <input type="text" list="barrios">
+        <datalist id="barrios">
+            <option value="Bochalema"></option>
+            <option value="La Calera"></option>
+            <option value="La Flora"></option>
+            <option value="Laureles"></option>
+            <option value="Castillo"></option>
+            <option value="Montearroyo"></option>
+            <option value="El Poblado"></option>
+        </datalist><br>
+        <label for="comments">Dejanos tus comentarios</label><br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Enviar"><br>
+        
+
+
+
+
+
+    </form>
+</body>
+</html>
