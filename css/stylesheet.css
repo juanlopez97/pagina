@@ -1,0 +1,34 @@
+*{
+    border: 1px;
+}
+.ejemplo0 :hover{
+color: red;
+
+    font-size: 45px;
+}
+.ejemplo {
+   font-size: 40px;
+    
+}
+.Uno1 {
+    color: black;
+text-transform: uppercase;
+}
+
+
+#id1{
+color: aqua;
+text-transform:capitalize;
+
+}
+
+a[href*="google"]{
+font-size: 25;
+color: chartreuse;
+
+}
+
+#id2{
+color: darkgoldenrod;
+
+}
