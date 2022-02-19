@@ -6,15 +6,36 @@ color: red;
 
     font-size: 45px;
 }
-.ejemplo {
-   font-size: 40px;
+.ejemplo1 {
+   font-size: 50px;
     
 }
 .Uno1 {
     color: black;
 text-transform: uppercase;
-font-size:xx-small;
+font-size:100%;
+background-color: gray;
 }
+
+.ejemplo2 {
+    font-size: 50px;
+     
+ }
+ .dos2 {
+     color: white;
+     background-color: grey;
+
+ font-size:100%;
+ background-color: grey;}
+ .ejemplo3 {
+    font-size: 50px;
+     
+ }
+ .tres3 {
+     color: gray;
+
+ font-size:200%;
+ background-color: white;}
 
 
 #id1{
@@ -24,7 +45,7 @@ font-weight: 900;
 
 }
 
-a[href*="google"]{
+a[ href*="/supero.html"]{
 font-size: 25;
 color: chartreuse;
 
@@ -33,8 +54,69 @@ color: chartreuse;
 #id2{
 color: darkgoldenrod;
 
+
 }
 #id3{
     color: darkgoldenrod;
+    background-color: brown;
     
     }
+#id4{
+        color: green;
+       background-color: white; 
+        }
+        #id5{
+            color: white;
+           background-color: gray; 
+            }
+
+.bg-img{
+                background-image: url(/img/s2.png);
+                background-size: cover;
+                background-position: center;
+                height: 400px;
+            }
+            
+.opacity{
+                display: block;
+              text-align: center;
+                font-size: 300%;
+                opacity: 1;
+                top: 80%;
+                width: 30%;
+                padding: 10px;
+                color: rgb(255, 255, 255);}
+
+                .bg-img1{
+                    background-image: url(/img/s4.jpg);
+                    background-size: cover;
+                    background-position: top;
+                    height: 400px;
+                }
+                
+    .opacity1{
+                    display: block;
+                  text-align: center;
+                    font-size: 300%;
+                    opacity: 1;
+                    top: 80%;
+                    width: 30%;
+                    padding: 10px;
+                    color: rgb(255, 255, 255);}
+
+                    .bg-img2{
+                        background-image: url(/img/s3.jfif);
+                        background-size: cover;
+                        background-position: center;
+                        height: 400px;
+                    }
+                    
+        .opacity2{
+                        display: block;
+                      text-align: center;
+                        font-size: 300%;
+                        opacity: 1;
+                        top: 80%;
+                        width: 30%;
+                        padding: 10px;
+                        color: rgb(48, 48, 48);}
