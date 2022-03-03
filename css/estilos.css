@@ -10,6 +10,7 @@ height: 50px;
 box-shadow: 1px 1px 5px #000;
 position: fixed;
 background: white;
+
 }
 
 #menu{
@@ -18,12 +19,15 @@ height: 40px;
 padding-top: 13px;
 margin: auto;
 
+
 }
+
 #menu ul a{
 color: #000;
 text-decoration: none;
 font: bold 16px verdana;
 padding: 13px 20px 19px 20px;
+
 }
 #menu ul a:hover{
 color: black;
@@ -31,7 +35,22 @@ background-color: grey;
 
 
 }
+
 #main {
     background: beige;
     height: 2000px;
+  
 }
+.videohero1{
+    width: 100%; 
+     overflow:hidden;
+   
+     height: 400px;
+ }
+ 
+ .t1-cover{
+    background-image: url(/img/t1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100px;
+ }
