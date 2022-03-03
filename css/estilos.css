@@ -37,8 +37,8 @@ background-color: grey;
 }
 
 #main {
-    background: beige;
-    height: 2000px;
+    background: black;
+    height: 500px;
   
 }
 .videohero1{
@@ -48,9 +48,23 @@ background-color: grey;
      height: 400px;
  }
  
- .t1-cover{
+ .t1{
     background-image: url(/img/t1.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 100px;
+    background-position: center;
+    height: 550px;
  }
+ .tt1{
+    display: block;
+  text-align: center;
+    font-size: 600%;
+    opacity: 1;
+    top: 90%;
+    width: 70%;
+    padding: 200px;
+    color: rgb(255, 255, 255);}
+    #programacion {
+        background: beige;
+        height: 2000px;
+      
+    }
