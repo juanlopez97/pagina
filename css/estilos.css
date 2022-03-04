@@ -64,10 +64,42 @@ background-color: grey;
     width: 70%;
     padding: 200px;
     color: rgb(255, 255, 255);}
+
+
+    .titulotrap1:hover{
+background-image: url(/img/t3.jfif);
+
+
+    }
     .programacion {
-        background: beige;
-        height: 2000px;
+        background: black;
+        height: auto;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+        
       
+    }
+    .gridprogramacion{
+
+display: grid;
+text-align: center;
+padding: 20px;
+grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+font-family: sans-serif;
+
+
+    }
+    .tituloprogramacio{
+
+      text-align: center;
+      background-color: gray;
+    }
+    .programacion > div{
+color: black;
+font-size: 20px;
+height: auto;
+
     }
     .tituloartistas{
         display: block;
@@ -127,5 +159,66 @@ background-color: brown;
 
 .fondo{
 background-image: url(/img/t7.jpg);
+height: auto;
 
+          }
+
+
+          .gridprogramacion > div{
+background-color: white;
+
+
+
+          }
+          .tituloventa{
+            text-align: left;
+            background-color: brown;
+            
+          }
+
+          .precioypunto{
+            background-color: gray;
+            display: grid;
+            text-align: center;
+            padding: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+            font-family: sans-serif;
+
+          }
+          .formulario{
+            background-color: brown;
+          text-align: center;
+          }
+          .sponsors{
+            background-color: black;
+            text-align: center;
+
+          }
+          .sponsors img{
+          
+
+          }
+          .sponsors img:hover{
+            transform: scale(1.5);
+          }
+          
+          
+          
+          .textsponsors{
+color: white;
+font-size: 60px;
+
+          }
+          .footer{
+background-color: brown;
+            text-align: center;
+     
+          }
+          .transision img{
+width: 100%;
+transition: .7s;
+
+          }
+          .transision img:hover{
+            transform: rotate(-10deg) scale(1.3);
           }
