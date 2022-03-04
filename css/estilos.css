@@ -38,7 +38,7 @@ background-color: grey;
 
 .main {
     background: black;
-    height: 400px;
+    height: auto;
   
 }
 .videohero1{
@@ -96,10 +96,13 @@ background-color: grey;
                 width: 95%;
                 padding:10px;
                 color:white;}
+                
 
     .info{
-       background: grey;
-        display: block;
+    
+     
+       display: block;
+        height: auto;
       text-align: center;
         font-size: 200%;
         opacity: 1;
@@ -108,14 +111,21 @@ background-color: grey;
         padding: auto;
         color:black;}
 
-        .artistas{
-           background-image: url(/img/t4.jpg);
-           background-position: bottom; 
+        .infotext{
+           background-image: url(/img/t8.jpg);
+           background-position:right; 
+           text-align:center;
+           height: auto;
            
-           font-size: 150%;
-            color: gray;
+           font-size: 100%;
+            color:rgb(0, 0, 0);
         }
           .fecha{
 background-color: brown;
+
+          }
+
+.fondo{
+background-image: url(/img/t7.jpg);
 
           }
