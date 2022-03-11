@@ -105,7 +105,7 @@ font-family: sans-serif;
     }
     .programacion > div{
 color: black;
-font-size: 20px;
+font-size: 40px;
 height: auto;
 
     }
@@ -151,6 +151,16 @@ height: auto;
         padding: auto;
         color:black;}
 
+        .transiciont5{
+
+          height: auto;
+      text-align: center;
+        }
+        .transiciont5:hover{
+background-image: url(/img/t7.jpg);
+          
+        }
+
         .infotext{
           
            background-image: url(/img/t8.jpg);
@@ -182,12 +192,13 @@ background-color: white;
           }
           .tituloventa{
             text-align: left;
-            background-color: brown;
+            
             
           }
 
           .precioypunto{
             background-color: gray;
+            font-size: 200%;
             display: grid;
             text-align: center;
             padding: 20px;
@@ -196,24 +207,33 @@ background-color: white;
 
           }
           .formulario{
-            background-color: brown;
-          text-align: center;
+           
+      
+          display: grid;
+          
+          grid-auto-flow: row;
+          grid-gap: .8em;
+          background: grey;
+          padding: 1.2em;
           }
           .sponsors{
             background-color: black;
             text-align: center;
+            height: 450px;
 
           }
-          .sponsors img{
-          
+          .imgsponsor{
+            width: auto;
+            height: auto;
+            
 
           }
-          .sponsors img:hover{
-            transform: scale(1.5);
+       
+          
+          .preciosypuntosventa{
+            background-image: url(/img/t5.jpg);
           }
-          
-          
-          
+         
           .textsponsors{
 color: white;
 font-size: 60px;
@@ -222,6 +242,7 @@ font-size: 60px;
           .footer{
 background-color: brown;
             text-align: center;
+            font-size: 200%;
      
           }
           .transision img{
@@ -231,4 +252,8 @@ transition: .7s;
           }
           .transision img:hover{
             transform: rotate(-10deg) scale(1.3);
+          }
+          .footerimg{
+text-align: center;
+
           }
