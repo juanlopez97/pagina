@@ -44,3 +44,24 @@ if( e != f){
     console.log("no son iguales");
 }
 
+document.getElementById("saludo").innerHTML="Hola Mundo";
+
+console.log(document.getElementById("saludo"));
+
+
+
+
+document.getElementsByTagName("h1");
+console.log(document.getElementsByTagName("h1"));
+
+
+document.getElementsByClassName("llama");
+console.log(document.getElementsByClassName("llama"))
+
+document.getElementsByClassName("ritopls");
+console.log(document.getElementsByClassName("ritopls"))
+
+document.getElementById("llama2.0").innerHTML="olaf k ashe";
+console.log(document.getElementById("llama2.0"));
+
+
