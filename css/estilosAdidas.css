@@ -9,6 +9,7 @@ header{
     box-shadow: 1px 1px 5px #000;
     position: fixed;
     background: white;
+    z-index: 2;
     
     }
     
@@ -56,25 +57,52 @@ header{
              
                 font-size: 150%;
                 display: grid;
-                
-                padding: 20px;
-                grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-                
+                text-align: center;
+               
+                grid-template-columns: repeat(2, 6fr);
+                justify-content: center;
+                align-self: center;   
+                align-items: center;              
               }
+              
               .img1
               {
                   width: 80%;
 
               }
+              .link1{
+                width: 10%;
+              justify-content: center;
+              align-self: center;
+              align-items: center;
+              }
+
+              .divimg1{
+                background-image: url('/src/img/img1.jpg');
+                min-height: 500px;
+                background-size: cover;
+              }
            
               .grid2{
              
                 font-size: 150%;
-                display: grid;
-                text-align: right;
-                padding: 20px;
-                grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    display: grid;
+    text-align: right;
+  
+    grid-template-columns: repeat(2, 6fr);
+    justify-content: center;
+    align-self: center;
+    align-items: center;             
                 
+              }
+.divimg2{
+  background-image: url('/src/img/img2.jpg');
+  min-height: 500px;
+  background-size: cover;
+}
+
+              .link2{
+                width: 10%;
               }
 
               .tituloH{
@@ -88,12 +116,19 @@ header{
                 
                 padding: 20px;
                 grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-                
+                justify-content: center;
+                align-self: center;   
+                align-items: center;              
+              
               }
               .vid2{
                   width: 90%;
               }
 
+              .historia{
+                background-color: rgba(173,201,245);
+                padding: 60px 20px;
+              }
 .footer{
     background-color: rgba(127,127,127);
     height: 100px;
@@ -107,7 +142,7 @@ header{
               .wrapper {
                 width: 90%;
                 max-width: 940px;
-                margin: 20px auto;
+                margin: 0px  auto;
                 background-color: #fff;
               }
               
@@ -216,4 +251,10 @@ header{
                   grid-column: 3;
                   grid-row: 2 / 6;
                 }
+              }
+
+
+              .footer{
+                text-align: center;
+                padding: 20px;
               }
