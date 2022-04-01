@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 5px #000;
+    position: fixed;
+    background: white;
+    
+    }
+    
+    .menu{
+    width: 1300px;
+    height: 40px;
+    padding-top: 13px;
+    margin: auto;
+    text-align: center;
+    }
+
+    .menu ul a{
+        color: #000;
+        text-decoration: none;
+        font: bold 16px verdana;
+        padding: 13px 20px 19px 20px;
+        
+        
+        }
+
+        .menu ul a:hover{
+            
+            color: black;
+            border-bottom: solid;
+        }
+
+            .logo{
+                width: 40px;
+                float: left;
+                margin: -5px 10px;
+               }
+
+
+
+               #videoFutbol{
+                width: 100%;   
+                position: fixed;
+                z-index: -1;
+                margin-left: 50vw; 
+                transform: translate(-50%);
+               scale: 1;
+  
+     
+               }
+               
+.main {
+                background: black;
+                height: auto;
+            }
+
+            section
+            {
+                background-color: #000;
+            }
+            .titulo1{
+                background-color: black;
+                background-size:auto;
+                background-position: center;
+                height: 650px;
+              
+             }
+             .titulotrap1{
+                display: block;
+              text-align: center;
+                font-size: 1200%;
+                opacity: 1;
+                top: 100%;
+                width: 70%;
+                padding: 200px;
+                color: rgb(255, 255, 255);}
+            
+            
+
+        
+            
+            
+            
+            
