@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>adidasWeb</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="/css/estilosAdidas.css"> 
 </head>
 <header>
@@ -23,7 +26,7 @@
 </header>
 
 <body style="background-color: black;">
-
+<a id="ancla1"></a>
 <div   id="videoFutbol">
     <video   id="vid"  autoplay muted loop>
     <source src="/src/vid/v1.mp4" type="video/mp4"> 
@@ -31,8 +34,8 @@
     
 </div> 
 
-<section style="background-color: rgba(235,225,148)" >
-    
+<section  style="background-color: rgba(235,225,148)" >
+    <a id="ancla2"></a>    
 <div class="grid1">
     
     <div>    
@@ -65,10 +68,65 @@
 </div>
    
 </section>
-
-
+<section>
+<div class="contenedor">
+		<!-- Los botones no funcionan bien, pero las barras inferiores si, 
+        entonces deje configuradas las barritas inferiores en vez de los botones. -->
+    <div class="carousel">
+                <div class="carousel__contenedor">
+                    <button aria-label="Anterior" class="carousel__anterior">
+                        <!-- <i class="fas fa-chevron-left"></i> -->
+                    </button>
+    
+                     <div class="carousel__lista">
+                        <div class="carousel__elemento">
+                            <img class="img3"src="/src/img/img3.jpeg">
+                            
+                        </div> 
+                        <div class="carousel__elemento">
+                            <img class="img4"src="/src/img/img4.jpeg" >
+                           
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="img3" src="/src/img/img3.jpeg" >
+                           
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="img5"src="/src/img/img5.jpeg" >
+                     
+                        </div>
+        
+                        <div class="carousel__elemento">
+                            <img class="img5" src="/src/img/img5.jpeg" >
+                         
+                        </div>
+                        <div class="carousel__elemento">
+                            <img  class="img4" src="/src/img/img4.jpeg">
+                         
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="img3" src="/src/img/img3.jpeg">
+                          
+                        </div>
+                        <div class="carousel__elemento">
+                            <img class="img5" src="/src/img/img5.jpeg">
+                    
+                        </div>
+                    </div> 
+    
+                    <button aria-label="Siguiente" class="carousel__siguiente">
+                        <!-- <i class="fas fa-chevron-right"></i> -->
+                    </button>
+                
+    
+                <div role="tablist" class="carousel__indicadores"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+<a id="ancla3"></a>
 <section class="historia"  >
-
+    
 <h5 class="tituloH">Historia de la seleccion Colombia:</h5>
 
 <div class="grid3">
@@ -96,7 +154,7 @@
 </section>
 
 <section style="background-color: rgba(144,41,41)" >
-    
+    <a id="ancla4"></a>    
 <div class="wrapper">
 
     <div class="home-hero">
@@ -130,15 +188,20 @@
 </div>
    
 </section>
-
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="/app.js"></script>
 </body>
 
 
 <footer class="footer">
 
      <div>
-     <p class="footer"> Adidas </p>
-     </div>
+         
+     <p  class="footer"> <img class="logo" src="/src/img/Colombia.png"> 
+        <img class="logo" src="/src/img/Adidas_logo.png">Adidas 2022 Cali, Colombia. Todos los derechos reservados. <br> Trabajo parcial de diseño web. </p>
+    <br>Por: Juan Carlos Lopez, Juan Felipe Salazar Ramos, Maria Camila Ospina, Kevin Benitez y Jhon Alexander Varela. 
+    </div>
  
 </footer>
 
